@@ -7,18 +7,36 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="vm.demo.spornchai.traffic.MainActivity">
+    tools:context="vm.demo.spornchai.traffic.MainActivity"
+    android:contextClickable="false"
+    android:background="@drawable/wallpaper">
 
     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/top_txt"
+        android:id="@+id/textView"
+        android:autoText="false"
+        android:textSize="@dimen/h1"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/txt"
+        android:background="#7deeeeee"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="About ME"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true" />
+
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/textView" />
-
-    <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/textView"></GridLayout>
+        android:id="@+id/listView"
+        android:layout_above="@+id/button"
+        android:layout_below="@+id/textView"
+        android:background="#7df5f5f5" />
 
 </RelativeLayout>
