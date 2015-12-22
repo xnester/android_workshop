@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="vm.demo.spornchai.traffic.MainActivity"
     android:contextClickable="false"
-    android:background="@drawable/wallpaper">
+    android:background="@drawable/wall10">
 
     <TextView
         android:layout_width="fill_parent"
@@ -22,7 +22,8 @@
         android:textColor="@color/txt"
         android:background="#7deeeeee"
         android:layout_marginBottom="10dp"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:padding="10dp" />
 
     <Button
         android:layout_width="fill_parent"
