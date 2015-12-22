@@ -23,7 +23,8 @@
         android:background="#7deeeeee"
         android:layout_marginBottom="10dp"
         android:textAlignment="center"
-        android:padding="10dp" />
+        android:padding="10dp"
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="fill_parent"
