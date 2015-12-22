@@ -46,26 +46,26 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.traffic_19, R.drawable.traffic_20,};
         //#2
         final String[] strTitle = new String[20];
-        strTitle[0] = "title#1";
-        strTitle[1] = "title#2";
-        strTitle[2] = "title#3";
-        strTitle[3] = "title#4";
-        strTitle[4] = "title#5";
-        strTitle[5] = "title#6";
-        strTitle[6] = "title#7";
-        strTitle[7] = "title#8";
-        strTitle[8] = "title#9";
-        strTitle[9] = "title#10";
-        strTitle[10] = "title#11";
-        strTitle[11] = "title#12";
-        strTitle[12] = "title#13";
-        strTitle[13] = "title#14";
-        strTitle[14] = "title#15";
-        strTitle[15] = "title#16";
-        strTitle[16] = "title#17";
-        strTitle[17] = "title#18";
-        strTitle[18] = "title#19";
-        strTitle[19] = "title#20";
+        strTitle[0] = "หัวข้อที่ #1";
+        strTitle[1] = "หัวข้อท ี่#2";
+        strTitle[2] = "หัวข้อที่ #3";
+        strTitle[3] = "หัวข้อที่ #4";
+        strTitle[4] = "หัวข้อที่ #5";
+        strTitle[5] = "หัวข้อที่ #6";
+        strTitle[6] = "หัวข้อที่ #7";
+        strTitle[7] = "หัวข้อที่ #8";
+        strTitle[8] = "หัวข้อที่ #9";
+        strTitle[9] = "หัวข้อที่ #10";
+        strTitle[10] = "หัวข้อที่ #11";
+        strTitle[11] = "หัวข้อที่ #12";
+        strTitle[12] = "หัวข้อที่ #13";
+        strTitle[13] = "หัวข้อที่ #14";
+        strTitle[14] = "หัวข้อที่ #15";
+        strTitle[15] = "หัวข้อที่ #16";
+        strTitle[16] = "หัวข้อที่ #17";
+        strTitle[17] = "หัวข้อที่ #18";
+        strTitle[18] = "หัวข้อที่ #19";
+        strTitle[19] = "หัวข้อที่ #20";
 
         //#3
         String[] strDetail = getResources().getStringArray(R.array.detail_short);
@@ -82,6 +82,9 @@ public class MainActivity extends AppCompatActivity {
                 objIntent.putExtra("Image", intIcon[position]);
                 objIntent.putExtra("Index", position);
                 startActivity(objIntent);
+
+                MediaPlayer buttonMediaPlayer = MediaPlayer.create(getBaseContext(), R.raw.bird_maxican);
+                buttonMediaPlayer.start();
 
             }//event
         });
