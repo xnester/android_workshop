@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         strTitle[16] = "title#17";
         strTitle[17] = "title#18";
         strTitle[18] = "title#19";
-        strTitle[19] = "title#10";
+        strTitle[19] = "title#20";
 
         //#3
         String[] strDetail = getResources().getStringArray(R.array.detail_short);
